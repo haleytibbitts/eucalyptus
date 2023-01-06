@@ -29,7 +29,45 @@
     <header>
       <h1>eucalyptus</h1>
     </header>
-    <main></main>
+    <main>
+      <section class="timer-container">
+        <h2 id="status">ready?</h2>
+        <h3 id="counter"></h3>
+        <p class="timer-display">25:00</p>
+        <button id="start-btn" class="btn">start</button>
+        <button id="skip-btn" class="btn">skip</button>
+      </section>
+      <section class="settings">
+        <h2 id="duration-header">set duration</h2>
+        <div class="rest">
+          <h3>rest</h3>
+          <button class="btn-settings" id="rest-plus">+</button>
+          <p><span id="rest-min">25</span> mins</p>
+          <button class="btn-settings" id="rest-minus">-</button>
+        </div>
+
+        <div class="rise">
+          <h3>rise</h3>
+          <button class="btn-settings" id="rise-plus">+</button>
+          <p><span id="rise-min">5</span> mins</p>
+          <button class="btn-settings" id="rise-minus">-</button>
+        </div>
+
+        <div class="power-rise">
+          <h3>power rise</h3>
+          <button class="btn-settings" id="power-rise-plus">+</button>
+          <p><span id="power-rise-min">25</span> mins</p>
+          <button class="btn-settings" id="power-rise-minus">-</button>
+        </div>
+
+        <div class="power-rise">
+          <h3>enable power rise?</h3>
+          <input type="checkbox" id="power-rise-checkbox" />
+        </div>
+
+        <button id="reset" class="btn">reset</button>
+      </section>
+    </main>
     <footer>
       <p>made with 💖 by haley tibbitts 🐨</p>
       <p>&copy;2023</p>
